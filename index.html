@@ -7,7 +7,7 @@
   </head>
   <body>
     <div id="root">
-        <h1>Not rendering</h1>
+      <h2>Not rendering</h2>
     </div>
   </body>
   <script
@@ -20,9 +20,11 @@
   ></script>
 
   <script>
-    const heading = document.createElement("h1");
-    // const root = ReactDOM.createRoot(document.getElementById('root'))
-    // root.render(heading);
-    heading.innerHTML ='Name : Vishnu P V'
+    const heading = React.createElement("h1",{},"React running");
+    const root = ReactDOM.createRoot(document.getElementById('root'))
+    root.render(heading);
+    // heading.innerHTML = "Name : Vishnu P V";
+    // const root = document.getElementById("root");
+    // root.appendChild(heading);
   </script>
 </html>
