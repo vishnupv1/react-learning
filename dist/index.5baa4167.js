@@ -2951,6 +2951,7 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
+console.log("Vishnu");
 const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {}, "React is here at browser");
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(heading); // heading.innerHTML = "Name : Vishnu P V";
