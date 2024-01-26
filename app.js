@@ -1,10 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-console.log('Vishnu')
-const heading = React.createElement("h1", {}, "React is here at browser");
+
+const heading = <h1>React is here</h1>;
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
-// heading.innerHTML = "Name : Vishnu P V";
-// const root = document.getElementById("root");
-// root.appendChild(heading);
